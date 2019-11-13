@@ -62,7 +62,7 @@ void utils_uart_putU4_string(const char* buffer) {
 int utils_uart_getU4_string(char* buffer, int max_sz) {
     int i=0;
     char ch;
-    for(i=0; i<max_sz || ch == '\r'; i++) {
+    for(i=0; i<max_sz || ch == '\n'; i++) {
         ch = utils_uart_getU4();
         buffer[i] = ch;
     }

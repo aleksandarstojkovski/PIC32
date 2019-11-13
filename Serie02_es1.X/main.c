@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <p32xxxx.h>
+#include <stdio.h> 
 #include "uart.h"
 
 /* Disable JTAG to use RA0 */
@@ -128,8 +129,8 @@ int main(int argc, char** argv) {
         } else  if (PORTBbits.RB9 == 0 && PORTAbits.RA7 == 1){
             LATAbits.LATA7=0;
             utils_uart_putU4_string("LED7 - OFF\r\n");
-        }        
-        
+        }    
+      
     }
     
 }
