@@ -43,6 +43,9 @@ extern "C" {
             int period_ms, int bus_freq, tmx_prescaler_t prescaler, 
             int use_interrupt, int priority, int sub_priority);
     
+    void utils_timer1_delay(int period_ms, int bus_freq, tm1_prescaler_t prescaler);
+    void utils_timer2_delay(int period_ms, int bus_freq, tmx_prescaler_t prescaler);
+    
 #ifdef	__cplusplus
 }
 #endif

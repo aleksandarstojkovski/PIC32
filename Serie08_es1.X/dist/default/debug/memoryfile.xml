@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/default/debug/Serie08_es1.X.debug.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>531968</length>                 
+      <used>6324</used>                     
+      <free>525644</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>131584</length>                 
+      <used>1072</used>                     
+      <free>130512</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

@@ -14,7 +14,7 @@ void utils_uart4_init(int baud, int pbus_clock,
         IPC9bits.U4IP = interrupt_priority;  
         IPC9bits.U4IS = interrupt_sub_priority;
 
-        IFS2bits.U4RXIF = 0;    //Clear the Uart4 interrupt flag.
+        IFS2bits.U4RXIF = 0;    // Clear the Uart4 interrupt flag.
         IEC2bits.U4RXIE = 1;    // enable RX interrupt
     }
 }
