@@ -457,8 +457,8 @@ void init_audio() {
 
 void set_audio(char * setting){
     if (setting == "on"){
-        T3CONbits.ON = 1;       // turn off Timer3
-        OC1CONbits.ON = 1;      // Turn off OC1  
+        T3CONbits.ON = 1;       // turn on Timer3
+        OC1CONbits.ON = 1;      // Turn on OC1  
     } else {
         T3CONbits.ON = 0;       // turn off Timer3
         OC1CONbits.ON = 0;      // Turn off OC1      
